@@ -27,7 +27,7 @@ The application is structured into **5 periodic tasks** managed by the FreeRTOS 
 
 ### 1. System Prerequisites
 * Embedded Linux environment or simulation layer configured with **FreeRTOS** kernel integration (including headers like `FreeRTOS.h`, `task.h`, `timers.h`, `semphr.h`).
-* Standard GCC toolchain and makefile setup compatible with the course framework.
+* Standard GCC toolchain and makefile setup compatible with the project structure.
 
 ### 2. Compilation and Execution
 To run the FreeRTOS application, initialize the scheduler inside your main entry point by calling `main_blinky()`, which initializes the synchronization primitives, creates the tasks, and starts the kernel scheduler:
